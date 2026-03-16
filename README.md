@@ -170,24 +170,6 @@ The following static graphs are extracted directly from notebook outputs, so the
 ### Plot B: Detailed Metric Comparison (4-panel analysis)
 ![Detailed comparison](assets/plots/notebook/cell_38_plot_01.png)
 
-
-
-### Mean and Stability Comparison
-```mermaid
-xychart-beta
-    title "Mean Score and Std Dev (lower absolute negativity is better)"
-    x-axis [epsilon_mean, softmax_mean, epsilon_std, softmax_std]
-    y-axis "value" 0 --> 6.5
-    bar [5.54, 5.50, 2.09, 1.93]
-```
-
-### Final Mean Advantage
-```mermaid
-pie title Mean Score Advantage (magnitude)
-    "Softmax better by ~0.04" : 0.04
-    "Remaining shared performance" : 5.50
-```
-
 Plot generation utility script:
 - `extract_notebook_plots.py`
 
