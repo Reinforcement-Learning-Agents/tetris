@@ -180,12 +180,7 @@ Plot generation utility script:
 python -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
-pip install numpy torch matplotlib imageio ipython gymnasium ale-py "gymnasium[atari,accept-rom-license]"
-```
-
-If ROM setup is required by your local ALE installation:
-```bash
-AutoROM --accept-license
+pip install numpy torch matplotlib imageio ipython gymnasium ale-py 
 ```
 
 ### 2. Launch notebook
