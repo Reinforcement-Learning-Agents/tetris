@@ -177,8 +177,6 @@ Plot generation utility script:
 
 ### 1. Environment setup
 ```bash
-python -m venv .venv
-source .venv/bin/activate
 pip install --upgrade pip
 pip install numpy torch matplotlib imageio ipython gymnasium ale-py 
 ```
