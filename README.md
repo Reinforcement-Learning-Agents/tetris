@@ -163,8 +163,6 @@ Limitations:
 
 The following static graphs are extracted directly from notebook outputs, so they match the exact visual results produced during the experiment.
 
-### Plot A: Epsilon Decay During Training
-![Epsilon decay](assets/plots/notebook/cell_31_plot_01.png)
 
 ### Plot B: Parameter Decay Schedules (Epsilon vs Tau)
 ![Decay schedules](assets/plots/notebook/cell_34_plot_01.png)
@@ -175,11 +173,6 @@ The following static graphs are extracted directly from notebook outputs, so the
 ### Plot D: Detailed Metric Comparison (4-panel analysis)
 ![Detailed comparison](assets/plots/notebook/cell_38_plot_01.png)
 
-### Plot E: Exploration Dynamics Visualization
-![Exploration dynamics](assets/plots/notebook/cell_40_plot_01.png)
-
-### Plot F: Additional Comparison Figure
-![Additional comparison](assets/plots/notebook/cell_44_plot_01.png)
 
 ### Exploration Schedules (configured values)
 ```mermaid
