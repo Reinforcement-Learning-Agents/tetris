@@ -215,10 +215,6 @@ Load the corresponding checkpoint in the notebook and run the policy visualizati
 - PyTorch Documentation: https://pytorch.org/docs/stable/index.html
 - Mnih et al. (2015), Human-level control through deep reinforcement learning, Nature.
 
-## Recommended Background and Reading
-
-- Miguel Morales, *Grokking Deep Reinforcement Learning*, Manning
-- Richard S. Sutton and Andrew G. Barto, *Reinforcement Learning: An Introduction*, MIT Press
 
 ## Academic Use and Attribution
 
