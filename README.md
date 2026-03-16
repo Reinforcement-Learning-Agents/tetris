@@ -164,25 +164,13 @@ Limitations:
 The following static graphs are extracted directly from notebook outputs, so they match the exact visual results produced during the experiment.
 
 
-### Plot B: Parameter Decay Schedules (Epsilon vs Tau)
-![Decay schedules](assets/plots/notebook/cell_34_plot_01.png)
-
-### Plot C: Learning Curves (Raw + Moving Average)
+### Plot A: Learning Curves (Raw + Moving Average)
 ![Learning curves](assets/plots/notebook/cell_36_plot_01.png)
 
-### Plot D: Detailed Metric Comparison (4-panel analysis)
+### Plot B: Detailed Metric Comparison (4-panel analysis)
 ![Detailed comparison](assets/plots/notebook/cell_38_plot_01.png)
 
 
-### Exploration Schedules (configured values)
-```mermaid
-xychart-beta
-    title "Exploration Parameters"
-    x-axis [start, end]
-    y-axis "Value" 0 --> 1.6
-    bar "epsilon" [1.0, 0.01]
-    bar "tau" [1.5, 0.05]
-```
 
 ### Mean and Stability Comparison
 ```mermaid
