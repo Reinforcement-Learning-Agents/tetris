@@ -213,7 +213,6 @@ Load the corresponding checkpoint in the notebook and run the policy visualizati
 - Gymnasium Documentation: https://gymnasium.farama.org/
 - ALE / Atari environments: https://ale.farama.org/
 - PyTorch Documentation: https://pytorch.org/docs/stable/index.html
-- Mnih et al. (2015), Human-level control through deep reinforcement learning, Nature.
 
 
 ## Academic Use and Attribution
