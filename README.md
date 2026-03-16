@@ -1,4 +1,4 @@
-# Tetris Reinforcement Learning Agent (DQN)
+# Deep Q-Learning for Atari Tetris: A Comparison of Epsilon-Greedy and Softmax Exploration
 
 This repository contains a Deep Q-Network (DQN) project for Atari Tetris, implemented in Python with Gymnasium and PyTorch.  
 The project compares two exploration strategies under the same training setup:
