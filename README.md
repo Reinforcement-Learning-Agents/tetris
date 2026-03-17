@@ -222,6 +222,7 @@ Load the corresponding checkpoint in the notebook and run the policy visualizati
 - Gymnasium Documentation: https://gymnasium.farama.org/
 - ALE / Atari environments: https://ale.farama.org/
 - PyTorch Documentation: https://pytorch.org/docs/stable/index.html
+- Professor Berta’s RL material and examples:https://github.com/riccardoberta/reinforcement-learning
 
 
 ## Academic Use and Attribution
