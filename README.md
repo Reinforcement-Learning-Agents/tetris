@@ -157,13 +157,13 @@ Limitations:
 
 <table>
 <tr>
-<td align="center" style="padding-right:40px;">
-<img src="best_game_epsilon.gif" width="280"><br>
+<td align="center" style="padding-right:100px;">
+<img src="best_game_epsilon.gif" width="200"><br>
 <b>Epsilon-Greedy Policy</b>
 </td>
 
-<td align="center" style="padding-left:40px;">
-<img src="best_game_softmax.gif" width="280"><br>
+<td align="center" style="padding-left:100px;">
+<img src="best_game_softmax.gif" width="200"><br>
 <b>Softmax Policy</b>
 </td>
 </tr>
