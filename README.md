@@ -154,8 +154,8 @@ Limitations:
 ## Visual Results (GIFs)
 
 <p align="center">
-  <img src="best_game_epsilon.gif" width="280" style="margin-right:40px;">
-  <img src="best_game_softmax.gif" width="280">
+  <img src="best_game_epsilon.gif" width="200" style="margin-right:100px;">
+  <img src="best_game_softmax.gif" width="200">
 </p>
 
 <p align="center">
