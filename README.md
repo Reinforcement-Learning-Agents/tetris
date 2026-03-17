@@ -153,23 +153,15 @@ Limitations:
 
 ## Visual Results (GIFs)
 
-<div align="center">
+<p align="center">
+  <img src="best_game_epsilon.gif" width="280" style="margin-right:40px;">
+  <img src="best_game_softmax.gif" width="280">
+</p>
 
-<table>
-<tr>
-<td align="center">
-<b>Epsilon-Greedy Policy</b><br>
-<img src="best_game_epsilon.gif" width="300">
-</td>
-
-<td align="center">
-<b>Softmax Policy</b><br>
-<img src="best_game_softmax.gif" width="300">
-</td>
-</tr>
-</table>
-
-</div>
+<p align="center">
+<b>Epsilon-Greedy Policy</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b>Softmax Policy</b>
+</p>
 
 ## Graphs and Data Snapshots
 
