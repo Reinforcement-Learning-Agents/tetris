@@ -153,19 +153,15 @@ Limitations:
 
 ## Visual Results (GIFs)
 
-<div style="display:flex; gap:20px;">
+<p align="center">
+  <img src="best_game_epsilon.gif" width="400">
+  <img src="best_game_softmax.gif" width="400">
+</p>
 
-<div style="text-align:center;">
-<b>Epsilon-Greedy Policy</b><br>
-<img src="best_game_epsilon.gif" width="350">
-</div>
-
-<div style="text-align:center;">
-<b>Softmax Policy</b><br>
-<img src="best_game_softmax.gif" width="350">
-</div>
-
-</div>
+<p align="center">
+<b>Epsilon-Greedy Policy</b> &nbsp;&nbsp;&nbsp;&nbsp;
+<b>Softmax Policy</b>
+</p>
 ## Graphs and Data Snapshots
 
 The following static graphs are extracted directly from notebook outputs, so they match the exact visual results produced during the experiment.
