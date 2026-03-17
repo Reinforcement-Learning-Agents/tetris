@@ -164,10 +164,10 @@ Limitations:
 The following static graphs are extracted directly from notebook outputs, so they match the exact visual results produced during the experiment.
 
 
-### Plot A: Learning Curves (Raw + Moving Average)
+### Plot A: Decay of parameter 
 ![Learning curves](assets/plots/notebook/cell_36_plot_01.png)
 
-### Plot B: Detailed Metric Comparison (4-panel analysis)
+### Plot B: Learning Curves (Raw + Moving Average)
 ![Detailed comparison](assets/plots/notebook/cell_38_plot_01.png)
 
 ### Plot C: Detailed Metric Comparison (4-panel analysis)
