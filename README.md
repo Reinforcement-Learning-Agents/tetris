@@ -170,6 +170,10 @@ The following static graphs are extracted directly from notebook outputs, so the
 ### Plot B: Detailed Metric Comparison (4-panel analysis)
 ![Detailed comparison](assets/plots/notebook/cell_38_plot_01.png)
 
+### Plot C: Detailed Metric Comparison (4-panel analysis)
+![Detailed comparison](assets/plots/notebook/cell_40_plot_01.png)
+
+
 Plot generation utility script:
 - `extract_notebook_plots.py`
 
