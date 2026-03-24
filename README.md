@@ -134,22 +134,24 @@ Sample rollout scores used when exporting GIFs:
 - Epsilon rollout: `-11.4`
 - Softmax rollout: `-5.9`
 
-## Results and Discussion
+### Observed behavior in this run
 
-Observed behavior in this run:
-- Softmax achieved slightly better average return.
-- Softmax showed lower variance, indicating smoother learning.
-- Peak score was similar across both strategies.
-- Softmax converged in fewer episodes under this stopping criterion.
+- The **Softmax exploration strategy** achieved a slightly higher average return compared to the alternative method.
+- It also exhibited **lower variance**, suggesting a smoother and more stable learning process.
+- The **peak performance** reached by both strategies was comparable.
+- Under the chosen stopping criterion, **Softmax converged in fewer episodes**, indicating faster practical learning.
 
-Interpretation:
-- The gain is mostly in consistency/stability, not peak performance.
-- Softmax likely helped by preserving probabilistic preference among high-value actions during exploration.
+### Interpretation
 
-Limitations:
-- Single-seed result; no confidence intervals across multiple seeds.
-- Reward shaping may bias behavior toward short-term proxy signals.
-- Hyperparameter sensitivity not fully explored.
+- The main advantage of Softmax appears to lie in **improved consistency and stability**, rather than in achieving higher maximum performance.
+- This behavior may be explained by Softmax maintaining a **probabilistic preference among high-value actions**, enabling more structured exploration during training.
+- Furthermore, **advanced value-estimation approaches such as Double DQN may provide additional benefits**, including reduced overestimation bias and improved learning stability, potentially leading to more reliable convergence.
+
+### Limitations
+
+- The results are based on a **single random seed**, and therefore do not provide statistical confidence (e.g., confidence intervals across multiple runs).
+- The use of **reward shaping** may bias the agent toward short-term proxy objectives rather than true long-term returns.
+- **Hyperparameter sensitivity** was not systematically evaluated, which may limit the generality of these findings.
 
 ## Visual Results (GIFs)
 
